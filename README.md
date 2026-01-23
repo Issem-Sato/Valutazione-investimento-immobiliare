@@ -25,16 +25,6 @@ Questo repository contiene un piccolo **modulo Python** e un **notebook Jupyter*
 
 > Nota: il modulo (`modulo_investimento.py`) può funzionare anche **senza** `pandas`, ma in quel caso il metodo `dataframe()` non è disponibile.
 
-## Installazione
-
-```bash
-# (opzionale) crea un virtualenv
-python -m venv .venv
-source .venv/bin/activate  # macOS/Linux
-# .venv\Scripts\activate   # Windows
-
-pip install -r requirements.txt
-
 ## API: `ProgettoImmobiliare`
 
 ### Parametri principali
@@ -88,3 +78,4 @@ Il modello è volutamente “snello”. Ad oggi non include, ad esempio:
 - vacancy / periodi di sfitto
 - rivalutazione dell’immobile, vendita finale, tassazione su plusvalenza
 - inflazione, adeguamento canoni, scenari e analisi di sensitività
+
